@@ -14,8 +14,7 @@ cs.aliveDuration = 7 * 24 * 60 * 60 * 1000;
 const ENABLE_FLAC = 'true';
 const ENABLE_LOCAL_VIP = 'svip';
 const BLOCK_ADS = 'true';
-const DISABLE_UPGRADE_CHECK =
-	(process.env.DISABLE_UPGRADE_CHECK || '').toLowerCase() === 'true';
+const DISABLE_UPGRADE_CHECK = 'true';
 const ENABLE_LOCAL_SVIP = 'svip';
 const LOCAL_VIP_UID = (process.env.LOCAL_VIP_UID || '')
 	.split(',')
