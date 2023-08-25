@@ -12,7 +12,7 @@ const cs = getManagedCacheStorage('hook');
 cs.aliveDuration = 7 * 24 * 60 * 60 * 1000;
 
 const ENABLE_FLAC = 'true';
-const ENABLE_LOCAL_VIP = 'svip';
+const ENABLE_LOCAL_VIP = 'true';
 const BLOCK_ADS = 'true';
 const DISABLE_UPGRADE_CHECK = 'true';
 const ENABLE_LOCAL_SVIP = 'svip';
